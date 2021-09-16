@@ -7,7 +7,7 @@ This programs tries to mine PRCYcoin POA blocks using NVidia Cuda enabled graphi
 The program requires minimum the latest (1.0.0.8) version of the PRCY wallet to poll for the last POA Block.
 The program waits default for 50 blocks after the last POA block before it starts to mine.
 POA blocks will only be generated once per hour, so it would be a waste of energy to try to mine a block,
-which we llready will not be a POA block.
+which we allready know will not be a POA block.
 
 The miner mines one out of 24 POA blocks to my mining wallet as a reward for the effort I've put in to
 programming this software. If you're not ok with that, then don't use the software.
