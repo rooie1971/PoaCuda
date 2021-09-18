@@ -26,6 +26,12 @@ So for example this would be my commandline with Cuda configuration parameters:
 
 PoaCuda -o http://127.0.0.1:59683 -O rpcuser:rpcpassword -t 1 -l T15x15
 
+NEW: Added the S parameter which defines how many blocks the miner should wait after the last poablock.
+In above example it will wait 50 blocks before mining commences after the last poa block.
+
+NEW: if the wallet isn't the latest version, or you are mining on DAPS, it will turn into DAPS mode.
+Which will try to find a block continuously while getpoalastblockheight is not available through RPC.
+
 All dll files in this zip file should be in the same directory as the PoaCuda.exe program.
 
 Happy mining,
